@@ -1,7 +1,5 @@
-let temperatura = prompt('inserisci la temperatura');
-if(temperatura == Number){
+let temperatura = Number(prompt('inserisci la temperatura'));
 
-}
  else if(temperatura > 0 && temperatura < 20){
     console.log('non ci sono piu le mezze stagioni');
 } else if(temperatura >= 30){
