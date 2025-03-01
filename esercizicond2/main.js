@@ -1,6 +1,6 @@
 let temperatura = Number(prompt('inserisci la temperatura'));
 
- else if(temperatura > 0 && temperatura < 20){
+  if(temperatura > 0 && temperatura < 20){
     console.log('non ci sono piu le mezze stagioni');
 } else if(temperatura >= 30){
     console.log('lu mare, lu sole, lu ientu');
